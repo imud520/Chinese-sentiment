@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/workspace.xml
+.idea/modules.xml
+.idea/*.iml
+
+data/chnsenticorp/
+runs/
+*.pt

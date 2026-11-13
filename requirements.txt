@@ -1,0 +1,8 @@
+# 注意：torch 故意不写在这里！
+# PyPI 上的 Windows 版 torch 是 CPU 版。如果写在这里被自动安装，
+# 之后再装 GPU 版时 pip 会提示"已满足"直接跳过，导致只能用 CPU 训练。
+# torch 请单独用这条命令安装（RTX 50 系显卡必须用 cu128）：
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cu128
+transformers>=4.40
+datasets>=2.18
+pandas>=2.0
